@@ -248,7 +248,7 @@ export default function App() {
               };
 
               const response = await fetch(
-                "http://localhost:5001/api/contact",
+                "https://mern-portfolio-3rne.onrender.com/api/contact",
                 {
                   method: "POST",
                   headers: {
